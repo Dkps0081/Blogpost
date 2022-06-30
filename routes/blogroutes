@@ -1,0 +1,13 @@
+const express = require('express');
+//const Blog = require('../models/blog');
+const routes = express.Router();
+const blogcontroller = require('../controller/blog_controller');
+
+
+routes.get('/', blogcontroller.blog_index);
+routes.get('/create', blogcontroller.blog_create);
+routes.get('/:id', blogcontroller.blog_details);
+routes.delete('/:id', blogcontroller.blog_delete);
+routes.post('', blogcontroller.blog_post);
+module.exports = routes;
+///**********End of this module ****** */
