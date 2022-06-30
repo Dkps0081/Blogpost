@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+/* //to style the index.ejs file and style the blogs */
+
+.blogdhinchak a {
+    display: block;
+    color: aliceblue;
+    padding-left: 30px;
+    margin: 40px 0;
+    border-left: 6px solid chocolate;
+}
+
+.blogdhinchak a:hover h3 {
+    color: crimson;
+}
+
+.details {
+    display: block;
+    background-color: rgb(120, 123, 122);
+    border-left: 4px cornflowerblue solid;
+    margin: 30px 20px;
+    padding-left: 40px 20px;
+}
+
+.details .delete {
+    display: inline-block;
+    background-color: brown;
+    color: azure;
+    border-radius: 5px;
+    cursor: pointer;
+}
